@@ -35,6 +35,5 @@ suggestions_dict = pytrend.suggestions(keyword='pizza')
 print(suggestions_dict)
 
 # Get Google Realtime Search Trends
-
-realtime_searches = pytrend.realtime_trending_searches(pn='IN')
+realtime_searches = pytrend.realtime_trending_searches()
 print(realtime_searches.head())
